@@ -13,5 +13,11 @@ get  '/primos'  do
 end
 
 post  '/primos' do
-
+	begin
+		factoresPrimos =	factores.solucion(params['x'])
+		"#{factoresPrimos}"
+	rescue Exception
+		status 400
+	end
 end
+

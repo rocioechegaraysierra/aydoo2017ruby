@@ -19,7 +19,7 @@ class FactoresPrimos
 			return divisores	
 		end
 
-		raise Exception, "El valor introducido no es un numero"
+		raise Exception, "El parametro no es un valor numerico."
 	end
 end
 
