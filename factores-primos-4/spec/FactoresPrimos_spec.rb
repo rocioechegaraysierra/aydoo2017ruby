@@ -21,5 +21,9 @@ describe 'FactoresPrimosTest' do
 		 it 'Letra no es valida y lanza una excepcion' do
 			expect{calculadora.calcular("R")}.to raise_exception
 		end
+
+		 it 'factores de 2 es 2' do
+			expect(factores.solucion("2")).to eq([2])
+		end
 	end
 end
