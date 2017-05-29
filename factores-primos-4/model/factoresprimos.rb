@@ -5,7 +5,7 @@ class FactoresPrimos
 		factor = numero.to_i 
 		divisores = Array.new
 
-		if factor.to_s == x
+		if factor.to_s == numero
 			x = 2
 
 			while factor!= 1
