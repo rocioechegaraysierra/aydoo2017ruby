@@ -1,5 +1,5 @@
 require 'sinatra' 
-require_relative '../model/factoresprimos'
+require_relative 'model/factoresprimos'
 
 factores  = FactoresPrimos.new
 
